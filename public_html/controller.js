@@ -36,7 +36,7 @@ app.controller('PrincipalCtrl', function ($scope, $tarefaDao) {
     $scope.filtrarTarefasTerminadas = function () {
         $tarefaDao.filtroTarefas();
     };
-
+    
 });
 
 //app.controller('TarefaCtrl', function ($scope, $tarefaDao, $stateParams) {
